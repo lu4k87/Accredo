@@ -25,7 +25,7 @@ Interaktive Scrollytelling-Webseite zur schrittweisen Visualisierung eines Hochs
   - **Moodle-Kurs „ACCREDO“** (Hauptablage): Abschnitt 0 = dieser Leitfaden, Abschnitt 1–8 Bachelor, 9–12 Master, je Abschnitt alle PDFs des Studiengangs.
   - **Laufwerk X** (zusätzliche lokale Ablage, hierarchisch): `X:\ACCREDO\<Bachelor|Master>\<Studiengang>\Phase_<n>_…\<DOC-Nr>_….pdf`, gleicher Dateiname wie in Moodle.
   - Dokument-Fenster, Matrix und Navigator zeigen beide Orte: Moodle-Link + „Pfad kopieren“ für X (Ordner-Link nur, wenn die Seite selbst lokal geöffnet ist).
-  - Anpassen an einer Stelle im Skript: `STORAGE` (Moodle-Adresse, Kurs-ID, X-Wurzel). Ohne Kurs-ID öffnen die Links die Moodle-Kurssuche „ACCREDO“.
+  - Anpassen an einer Stelle im Skript: `STORAGE` (Moodle-Adresse, Kurs-ID, X-Wurzel). Kurs-ID `4711` ist ein Platzhalter → echte ID eintragen; leer = Links öffnen die Moodle-Kurssuche „ACCREDO“.
 - **Theme-Support:**
   - Light Mode (Default, Look „Ruhig“: gedämpfter Kontrast, Stahlblau als einziger Akzent, Status/RACI/Gates als getönte Flächen) & Dark Mode, Texte mit Kontrast ≥ 4,5:1 (meist ≥ 6:1).
   - Zero-Dependency: Funktioniert lokal vollständig offline ohne externe CDNs oder Internetzugang.
