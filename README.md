@@ -17,8 +17,17 @@ Interaktive Scrollytelling-Webseite zur schrittweisen Visualisierung eines Hochs
   - Jedes Dokument kann per Klick geöffnet werden: Zeigt Metadaten, Versionsstand, SHA-256 Hash, Freigabekette und formatierte Inhaltsauszüge.
 - **Zentrale Deliverables-Matrix:**
   - Umschaltung zwischen Scrollytelling-Ablauf und tabellarischer Übergabe-Matrix mit Volltext-Suche.
+- **Studiengänge (12):**
+  - Bachelor: Information and Communication Design (B.A.), International Business Administration (B.A.), Environment and Energy (B.Sc.), Infotronic Systems Engineering (B.Sc.), Medieninformatik (B.Sc.), Mobility and Logistics (B.Sc.), Psychologie (Arbeits- und Organisationspsychologie) (B.Sc.), Verwaltungsinformatik – E-Government (B.Sc., auch dual).
+  - Master: Design and Interaction (M.A.), Information Engineering and Computer Science (M.Sc.), International Management and Psychology (M.Sc.), Usability Engineering (M.Sc.).
+  - Auswahl im Kopf der Seite (gemerkt im Browser): Dokument-Auszüge, Pfade und Links gelten für den gewählten Studiengang; Ansicht „Studiengänge“ zeigt alle 12 mit Ablageorten.
+- **Ablageorte je Dokument:**
+  - **Moodle-Kurs „ACCREDO“** (Hauptablage): Abschnitt 0 = dieser Leitfaden, Abschnitt 1–8 Bachelor, 9–12 Master, je Abschnitt alle PDFs des Studiengangs.
+  - **Laufwerk X** (zusätzliche lokale Ablage, hierarchisch): `X:\ACCREDO\<Bachelor|Master>\<Studiengang>\Phase_<n>_…\<DOC-Nr>_….pdf`, gleicher Dateiname wie in Moodle.
+  - Dokument-Fenster, Matrix und Navigator zeigen beide Orte: Moodle-Link + „Pfad kopieren“ für X (Ordner-Link nur, wenn die Seite selbst lokal geöffnet ist).
+  - Anpassen an einer Stelle im Skript: `STORAGE` (Moodle-Adresse, Kurs-ID, X-Wurzel). Ohne Kurs-ID öffnen die Links die Moodle-Kurssuche „ACCREDO“.
 - **Theme-Support:**
-  - Light Mode (Default, Look „Klar“: Navy-Tinte + Königsblau, Status/RACI/Gates vollflächig) & Dark Mode, Texte mit Kontrast ≥ 7:1.
+  - Light Mode (Default, Look „Ruhig“: gedämpfter Kontrast, Stahlblau als einziger Akzent, Status/RACI/Gates als getönte Flächen) & Dark Mode, Texte mit Kontrast ≥ 4,5:1 (meist ≥ 6:1).
   - Zero-Dependency: Funktioniert lokal vollständig offline ohne externe CDNs oder Internetzugang.
 
 ## Starten & Betrachten
