@@ -1,0 +1,1 @@
+- [Accredo-Repo](accredo-repo.md) — eigenes Repo ~/__Project_accredo (lu4k87/Accredo), direkt dort committen; Seite per pre-push
