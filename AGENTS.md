@@ -22,4 +22,4 @@ Ergänzt die gemeinsamen Regeln aller Projekte (`~/.claude/CLAUDE.md` → `~/ai_
 
 ## 5. Arbeitsweise
 - **Commit + Push:** direkt in diesem Repo (`git@github.com:lu4k87/__project_accredo.git`), Skill `commit`; Liste aller Projekte: `~/ai_dev_workflow_global/config/projects.yaml`.
-- **Agenten** (ohne Nachfrage erlaubt, `RULES.md` §0b): `web-test-runner` (Prüfläufe), `web-ui-verifier` (UI hell + dunkel), `code-explorer` (breite Suche).
+- **Agenten** (ohne Nachfrage erlaubt, `RULES.md` §0b): `web-test-runner` (Prüfläufe), `web-ui-verifier` (UI hell + dunkel), `code-explorer` (breite Suche), `security-reviewer` (IT-Sicherheit vor Freigabe ins Netz, Auth, Ports).
